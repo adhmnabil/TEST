@@ -1,0 +1,131 @@
+body{
+    background-image: url(https://colorlib.com/etc/searchf/colorlib-search-13/images/Searchs_013.png);
+}
+
+
+.dest{
+    background: #003b95;
+    color: white;
+    height: 55px;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.dest2{
+    background: #a18f61;
+    color: black;
+    height: 55px;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    background-color: #a18f61;
+    color: white;
+    height: 55px;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.date:focus-visible{
+    border: none;
+    outline: none;
+}
+.btn-search{
+    background-color: #003b95 !important;
+    color: white !important;
+}
+.form{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: #0000005c;
+    z-index: 50;
+}
+.form-data{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 1px solid #645979;
+    outline: none;
+    border-radius: 0px 5px 5px 0;
+    background-color: #ffffff;
+    font-size: 16px;
+  }
+  ul {
+    list-style: none;
+  }
+  .list {
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    width: 20%;
+  }
+  .list2 {
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    width: 20%;
+  }
+  .list-items {
+    padding: 10px 5px;
+  }
+  .list-items:hover {
+    background-color: #dddddd;
+  }
+ 
+.star-rating {
+    display:flex;
+    flex-direction: row-reverse;
+    font-size:1.5em;
+    justify-content:space-around;
+    padding:0 .2em;
+    text-align:center;
+    width:5em;
+    align-items: center;
+    background: #a18f61;
+  }
+  
+  .star-rating input {
+    display:none;
+  }
+  
+  .star-rating label {
+    color:#ccc;
+    cursor:pointer;
+  }
+  
+  .star-rating :checked ~ label {
+    color:#f90;
+  }
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color:#fc0;
+  }
+  
+  .imgx{
+    cursor: pointer;
+  }
